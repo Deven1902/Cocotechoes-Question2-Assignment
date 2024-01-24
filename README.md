@@ -9,6 +9,6 @@ Hint: Use a map within a map.
 
 ![output 1](image.png)
 
-![output 2](image-2.png) 
+![output 2](image-1.png) 
 
-![output 3](image-3.png)
+![output 3](image-2.png)
