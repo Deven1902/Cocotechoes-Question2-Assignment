@@ -14,13 +14,13 @@ for (let i = 1; i <= 10; i++) {
         expense.set(party, totalExpense / people.length);
     }
     expenses.set(`Expense ${i}`, { payer, expense });
-    console.log(expense);
+    // console.log(expense);
 }
 
-// for (const [expenseName, { payer, expense }] of expenses) {
-//     console.log(`${expenseName} - Payer: ${payer}`,);
-//     for (const [party, share] of expense) {
-//         console.log(`  ${party}: ${share}`,);
-//     }
-//     console.log('\n');
-// }
+for (const [expenseName, { payer, expense }] of expenses) {
+    console.log(`${expenseName} - Payer: ${payer}`,);
+    for (const [party, share] of expense) {
+        console.log(`  ${party}: ${share}`,);
+    }
+    console.log('\n');
+}
