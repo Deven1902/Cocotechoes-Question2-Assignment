@@ -8,7 +8,7 @@ function randomPayer(parties) {
 
 for (let i = 1; i <= 10; i++) {
     const expense = new Map();
-    const totalExpense = Math.floor(Math.random() * 1000) + 100; // Random expense between 100 and 1000
+    const totalExpense = Math.floor(Math.random() * 1000) + 100; 
     const payer = randomPayer(people);
     for (const party of people) {
         expense.set(party, totalExpense / people.length);
